@@ -1,0 +1,15 @@
+
+name: figma_styles_exporter_cli
+description: A cli for converting Figma styles to Dart files.
+authors:
+- Aloïs Deniel <alois.deniel@outlook.com>
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+dependencies:
+  args: 1.4.4
+  figma_styles_exporter:
+ 
+dependency_overrides:
+  figma_styles_exporter:
+    path: ../src
